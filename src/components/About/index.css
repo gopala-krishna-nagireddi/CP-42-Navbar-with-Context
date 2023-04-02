@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.about-dark {
+  background-color: #000000;
+}
+
+.about-img {
+  width: 200px;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.dark {
+  color: #ffffff;
+}
